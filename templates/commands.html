@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Список команд</title>
+</head>
+<body>
+
+<div class="one" style="background: #fde1c7;"><h2>Команды нашего бота</h2></div>
+
+{% for name in commands %}
+
+<div class="list">
+    <h2>{{ name[1] }}</h2>
+    <p>{{name[2]}}</p>
+
+</div>
+
+{% endfor %}
+
+<a href="/"><div class="fixedbut">На главную</div></a>
+
+<style>
+.fixedbut { position: fixed; bottom: 40px; right: 40px; display: block;
+    background: #998287; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
+.fixedbut:hover { background: #222; }
+</style>
+
+</body>
+</html>

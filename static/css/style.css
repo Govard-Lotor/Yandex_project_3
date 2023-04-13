@@ -1,0 +1,112 @@
+
+body{
+    background: #457CF0;
+    font-family: monospace;
+}
+
+h1{
+    text-align: center;
+    color: #FFFFF0;
+    text-shadow: black 1px 1px 0, black -1px -1px 0,
+                 black -1px 1px 0, black 1px -1px 0;
+}
+
+h2{
+    color: black;
+    text-align: center;
+}
+
+div.one{
+    background: #8FAEF2;
+    border: 3px solid gray;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 30px;
+}
+
+div.logo{
+    background: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+div.main_one{
+    background: #FFFFF0;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 50px;
+    width: 800px;
+    line-height: 1.5;
+}
+
+div.button{
+    background: #fde1c7;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 15px;
+    margin: 50px;
+    margin-left: 70%;
+    margin-top: 100px;
+    border: 3px solid black;
+}
+
+a {
+text-decoration: none;
+color: #414A61;
+}
+
+div.main_two{
+    background: #FFFFF0;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 10%;
+    margin-top: 170px;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 40px;
+    width: 760px;
+    line-height: 1.5;
+}
+
+div.main_tree{
+    background: #FFFFF0;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 170px;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 40px;
+    width: 760px;
+    line-height: 1.5;
+}
+
+div.list{
+    text-align: center;
+    background: #FFFFF0;
+    border: 4px solid #5C6470;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 40px;
+    margin-top: 60px;
+    margin-button: 60px;
+}
+
+form.login_form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    background-color: #FFFFF0;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+        opacity: .9;
+
+}
