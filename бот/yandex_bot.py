@@ -211,5 +211,5 @@ async def skl(s, skl_noun):
         await s.send(f'Предложный падеж: {res.inflect({"loct", "plur"}).word}')
 
 
-TOKEN = "MTA4NzY2OTk5NTIwMDMxNTQ1NA.GeCAJf.fH9stF5P3y-JhaMj9y26z_EW1kuNpGqnDxwWfY"
+TOKEN = "token"  # Вместо <token> вставить токен бота из пояснительной записки
 bot.run(TOKEN)
