@@ -22,17 +22,21 @@ div.one{
     margin-left: 40%;
     margin-right: 40%;
     border-radius: 30px;
+    margin-top: 35px;
 }
 
 div.logo{
     background: white;
     margin-left: 35%;
+    margin-button: 200px;
     margin-right: 35%;
+    margin-top: 100px;
     text-align: center;
     border-radius: 15px;
 }
 
 div.main_one{
+    margin-top: 50px;
     background: #FFFFF0;
     text-align: center;
     margin-left: 10%;
@@ -85,6 +89,27 @@ div.main_tree{
     padding: 40px;
     width: 760px;
     line-height: 1.5;
+    margin-bottom: 250px;
+}
+
+div.mail{
+    margin-left:30%;
+    margin-right: 30%;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+div.fast{
+    margin-left: 30px;
+    margin-top:30px;
+    text-align: center;
+    background: red;
+    font-size: 30px;
+    padding: 20px;
+    height: 40px;
+    width: 40px;
 }
 
 div.list{
@@ -96,6 +121,7 @@ div.list{
     border-radius: 40px;
     margin-top: 60px;
     margin-button: 60px;
+    padding: 15px;
 }
 
 form.login_form {
