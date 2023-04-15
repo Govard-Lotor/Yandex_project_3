@@ -1,6 +1,5 @@
 from flask import Flask
 from flask import render_template
-from flask import request
 import sqlite3
 
 
@@ -16,10 +15,6 @@ class Data:
         return result
 
 
-d = Data()
-main_list = d.get()
-
-
 @app.route('/')
 @app.route('/index')
 def index():
@@ -28,6 +23,8 @@ def index():
 
 @app.route('/commands')
 def commands():
+    d = Data()
+    main_list = d.get()
     return render_template('commands.html', commands=main_list)
 
 
